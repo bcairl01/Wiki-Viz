@@ -17,6 +17,8 @@ int main(int argc, char** argv)
 	//std::cout << "Time to run : ";
 	//std::cin  >> time_t_run;
 
+	//WebTools::Page::set_max_link_count(200UL);
+
 	WebTools::Page::page::map map_out;
 	WebTools::GraphLite::graph graph_test;
 
@@ -25,8 +27,8 @@ int main(int argc, char** argv)
 	//graph_test.get_vertex(0).set_position(1,1,1);
 	//graph_test.get_vertex(1).set_position(-1,-1,-1);
 
-	WebTools::GraphLite::set_client(graph_test);
-	WebTools::GraphLite::run_host(argc,argv);
+	WebTools::GraphLite::Host::set_client(graph_test);
+	WebTools::GraphLite::Host::run_host(argc,argv);
 
 
 	//WebTools::Crawler::crawler_base 	crawler("Data",time_t_run,"http://www.wikipedia.org/");
@@ -43,8 +45,6 @@ int main(int argc, char** argv)
 	
 	//crawler.begin();
 	//crawler.end();
-	std::cout << "N to Load : ";
-	std::cin  >> time_t_run;
 	
 	//WebTools::Page::build(crawler.get_pages(),map_out);
 
@@ -93,13 +93,31 @@ int main(int argc, char** argv)
 	ubigraph_clear();
 	*/
 
+	
+	std::cout << "Tome to run : ";
+	std::cin  >> time_t_run;
 
+
+	//WebTools::Crawler::crawler_base 	crawler("Data",time_t_run,"http://en.wikipedia.org/wiki/Cabbage");
+	/*
+	crawler.add_inclusion("en.wikipedia.org/wiki");
+	crawler.add_exclusion(".png");
+	crawler.add_exclusion(".pdf");
+	crawler.add_exclusion(".jpeg");
+	crawler.add_exclusion(".bmp");
+	crawler.add_exclusion("&");
+	crawler.add_exclusion("/cim");
+	crawler.begin();
+	crawler.end();
+	*/
+
+	//WebTools::Page::build(crawler.get_pages(),map_out);
 	WebTools::Page::build(WebTools::Page::loader("Data",time_t_run).get_pages(),map_out);
 	WebTools::Page::enumerate(map_out);
 	for( Page::page::map::iterator x_itr = map_out.begin(); x_itr != map_out.end(); ++x_itr)
 	{
 		graph_test.new_vertex(x_itr->second.get_id());
-		graph_test.get_vertex(x_itr->second.get_id()).set_color(WebTools::GraphLite::Spec::color(1,0,1,.9));
+		graph_test.get_vertex(x_itr->second.get_id()).set_color(WebTools::GraphLite::Spec::color(0,1,0,.4));
 	}
 
 	for( Page::page::map::iterator x_itr = map_out.begin(); x_itr != map_out.end(); ++x_itr)
