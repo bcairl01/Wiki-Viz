@@ -1,0 +1,825 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"ver",
+				"vertex_a"
+			],
+			[
+				"ge",
+				"get_url"
+			],
+			[
+				"pr",
+				"printf	printf …"
+			],
+			[
+				"craw",
+				"crawler"
+			],
+			[
+				"get",
+				"get_address"
+			],
+			[
+				"n",
+				"n_added"
+			],
+			[
+				"si",
+				"size_t"
+			],
+			[
+				"ma",
+				"max_link_count"
+			],
+			[
+				"en",
+				"enumerate"
+			],
+			[
+				"c",
+				"crawler_base"
+			],
+			[
+				"cr",
+				"crawler_base"
+			],
+			[
+				"h",
+				"hyp_itr"
+			],
+			[
+				"pe",
+				"pending_file"
+			],
+			[
+				"vi",
+				"visited"
+			],
+			[
+				"s",
+				"std"
+			],
+			[
+				"ve",
+				"vert_threads"
+			],
+			[
+				"ed",
+				"edge_threads"
+			],
+			[
+				"siz",
+				"size_t"
+			],
+			[
+				"re",
+				"reset"
+			],
+			[
+				"_r",
+				"_render"
+			],
+			[
+				"r",
+				"reset"
+			],
+			[
+				"dat",
+				"data_list"
+			],
+			[
+				"P",
+				"Point2f"
+			],
+			[
+				"vector",
+				"vector	std::vector"
+			],
+			[
+				"p",
+				"physics"
+			],
+			[
+				"WT",
+				"WT_Thread"
+			],
+			[
+				"de",
+				"detach"
+			],
+			[
+				"no",
+				"normalize"
+			],
+			[
+				"d",
+				"downsample"
+			],
+			[
+				"WTGL_M",
+				"WTGL_MAX_TRUNK"
+			],
+			[
+				"v",
+				"vertex_render_list"
+			],
+			[
+				"ce",
+				"center_lp_gain"
+			],
+			[
+				"see",
+				"seek_lp_gain"
+			],
+			[
+				"t",
+				"test_frame"
+			],
+			[
+				"se",
+				"second"
+			],
+			[
+				"vert",
+				"vertex"
+			],
+			[
+				"int",
+				"integrate"
+			],
+			[
+				"time",
+				"timepoint"
+			],
+			[
+				"WGL",
+				"WTGL_DT"
+			],
+			[
+				"GLfl",
+				"GLfloat"
+			],
+			[
+				"gr",
+				"graph_test"
+			],
+			[
+				"for",
+				"force_ab"
+			],
+			[
+				"shap",
+				"shape_id"
+			],
+			[
+				"id_",
+				"id_a"
+			],
+			[
+				"co",
+				"color_spec"
+			],
+			[
+				"GL",
+				"GLfloat"
+			],
+			[
+				"ur",
+				"url_a"
+			],
+			[
+				"sp",
+				"sprint_buf"
+			],
+			[
+				"WEB",
+				"WEBTOOLS_VB1"
+			],
+			[
+				"page",
+				"pagelist"
+			],
+			[
+				"con",
+				"const_iterator"
+			],
+			[
+				"m",
+				"map_out"
+			],
+			[
+				"ite",
+				"isolate"
+			],
+			[
+				"cach",
+				"Cache"
+			],
+			[
+				"EXI_b",
+				"EXI_bO"
+			],
+			[
+				"Wi",
+				"WINSRC"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/media/brian/Windows/Users/brian/Dropbox/lib_source_code/cpp/WebTools/source/crawler.cpp",
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/media/brian/Windows/Users/brian/Dropbox/lib_source_code/cpp/WebTools/include/WebTools/crawler.hpp",
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "main.cpp",
+			"settings":
+			{
+				"buffer_size": 5095,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/media/brian/Windows/Users/brian/Dropbox/lib_source_code/cpp/WebTools/include/WebTools/page.hpp",
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/media/brian/Windows/Users/brian/Dropbox/lib_source_code/cpp/WebTools/source/page.cpp",
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "make_WebTools.sh",
+			"settings":
+			{
+				"buffer_size": 568,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/media/brian/Windows/Users/brian/Dropbox/lib_source_code/cpp/WebTools/source/cache.cpp",
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/media/brian/Windows/Users/brian/Dropbox/lib_source_code/cpp/WebTools/include/WebTools/graph.hpp",
+			"settings":
+			{
+				"buffer_size": 4876,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/media/brian/Windows/Users/brian/Dropbox/lib_source_code/cpp/WebTools/include/WebTools/base.hpp",
+		"/home/brian/Projects/Wiki-Viz/make.sh",
+		"/home/brian/Projects/Wiki-Viz/make_Main.sh.sh",
+		"/home/brian/Projects/Wiki-Viz/main.cpp",
+		"/home/brian/Desktop/graphlite.hpp",
+		"/media/brian/Windows/Users/brian/Dropbox/maps/maps/main.cpp",
+		"/media/brian/Windows/Users/brian/Desktop/nmea.txt",
+		"/media/brian/Windows/Users/brian/Dropbox/lib_source_code/cpp/WebTools/include/WebTools/crawler.hpp",
+		"/media/brian/Windows/Users/brian/Dropbox/lib_source_code/cpp/WebTools/include/WebTools/utils.hpp",
+		"/media/brian/Windows/Users/brian/Dropbox/lib_source_code/cpp/WebTools/include/WebTools/xml.hpp",
+		"/media/brian/Windows/Users/brian/Dropbox/lib_source_code/cpp/WebTools/source/utils.cpp",
+		"/media/brian/Windows/Users/brian/Dropbox/lib_source_code/cpp/WebTools/include/WebTools/WebTools.hpp",
+		"/media/brian/Windows/Users/brian/Dropbox/lib_source_code/cpp/WebTools/include/WebTools/graph.hpp",
+		"/home/brian/Repo/opencv_test/main.cpp",
+		"/home/brian/Projects/Wiki-Viz/make_WebTools.sh",
+		"/media/brian/Windows/Users/brian/Dropbox/lib_source_code/cpp/WebTools/source/page.cpp",
+		"/media/brian/Windows/Users/brian/Dropbox/lib_source_code/cpp/WebTools/include/WebTools/page.hpp",
+		"/home/brian/Projects/Wiki-Viz/Data/Pages.xml",
+		"/home/brian/Projects/LIDAR-Viz/make.sh",
+		"/media/brian/Windows/Users/brian/Dropbox/lib_source_code/cpp/WebTools/source/graph.cpp",
+		"/media/brian/Windows/Users/brian/Dropbox/lib_source_code/cpp/WebTools/include/WebTools/xmlout.hpp",
+		"/media/brian/Windows/Users/brian/Dropbox/lib_source_code/cpp/WebTools/source/cache.cpp",
+		"/home/brian/Projects/Wiki-Viz/make_Main.sh",
+		"/media/brian/Windows/Users/brian/Dropbox/lib_source_code/cpp/WebTools/include/WebTools/cache.hpp",
+		"/home/brian/Projects/LIDAR-Viz/main.cpp",
+		"/media/brian/Windows/Users/brian/Dropbox/lib_source_code/c/BlueFoot_Quadruped/NMEA/source/NMEA.cpp",
+		"/home/brian/Desktop/graphLite.cpp",
+		"/home/brian/Projects/Wiki-Viz/UbiGraph/client.c",
+		"/home/brian/Repo/UbiGraph/examples/C/client.c",
+		"/media/brian/Windows/Users/brian/Dropbox/lib_source_code/cpp/WebTools/source/crawler.cpp",
+		"/home/brian/Projects/Wiki-Viz/\\Pages.xml",
+		"/home/brian/Projects/Wiki-Viz/Data/Visted.xml",
+		"/home/brian/Projects/Wiki-Viz/errout",
+		"/home/brian/BFQ/make/make_Supports.sh",
+		"/home/brian/BFQ/make/make_BBBLK.sh",
+		"/home/brian/BFQ/run_make.sh",
+		"/media/brian/Windows/Users/brian/Dropbox/lib_source_code/c/BlueFoot_Quadruped/DUOV/source/DUOV_Network_RM48CommDefs.cpp",
+		"/media/brian/MusicBox/Pages.xml",
+		"/home/brian/BFQ/main.cpp",
+		"/home/brian/Scratch/cpg_test.cpp",
+		"/home/brian/Repo/libturbo/libjpeg-turbo-1.3.0/config.log",
+		"/home/brian/Repo/libturbo/libjpeg-turbo-1.3.0/build/config.log",
+		"/home/brian/Octave/cpg_test.m",
+		"/home/brian/Octave/cpg_test.oct",
+		"/home/brian/Repo/opencv/CMakeLists.txt",
+		"/home/brian/Repo/opencv/toolchain.cmake",
+		"/home/brian/Repo/opencv/platforms/linux/arm-gnueabi.toolchain.cmake",
+		"/home/brian/Repo/opencv/build/run_make.sh",
+		"/home/brian/run_make.sh",
+		"/home/brian/Repo/OpenCV-2.4.3/build/run_cmake.sh",
+		"/home/brian/BFQ/make/make_EXI_b.sh",
+		"/home/brian/BFQ/make/make_RobotLibSuite.sh",
+		"/media/brian/Windows/Users/brian/Dropbox/lib_source_code/c/BlueFoot_Quadruped/DUOV/source/DUOV_System.cpp",
+		"/home/brian/BFQ/scripts/make_BBBLK.sh",
+		"/home/brian/BFQ/bluefoot_bblk/make_BBBLK.sh",
+		"/home/brian/BFQ/bluefoot_bblk/scripts/make_BBBLK.sh",
+		"/home/brian/BFQ/bluefoot_bblk/Untitled Document",
+		"/media/brian/Windows/Users/brian/Dropbox/lib_source_code/c/BlueFoot_Quadruped/DUOV/source/DUOV.cpp",
+		"/media/brian/Windows/Users/brian/Dropbox/lib_source_code/c/BlueFoot_Quadruped/NMEA/include/NMEA.h",
+		"/home/brian/BFQ/bluefoot_bblk/make.sh"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"==",
+			"_a",
+			"[idx]",
+			"[idx[",
+			"tmp.",
+			"caches[idx].",
+			"linked_to",
+			"Host::",
+			"edge",
+			"();\n",
+			"color",
+			"vector",
+			"V3f",
+			"vector",
+			"max_link_count",
+			"max_link_count	",
+			"0UL",
+			"x_itr->second",
+			"v_itr",
+			"timeout",
+			"vertex",
+			"vector",
+			"position",
+			"WT_",
+			"WT_CT",
+			"T_",
+			"_renderbasehandle",
+			"edge",
+			"inline",
+			"WEB_XMLOUT",
+			"WEB_CACHE",
+			"run_service",
+			"<<<<<<< HEAD\n",
+			"client",
+			"graph_client",
+			"Host::",
+			"zoom",
+			"view_loc_z",
+			"view_loc_y",
+			"view_loc_x",
+			"view_angle_z",
+			"view_angle_y",
+			"view_angle_x",
+			"Host",
+			"sleep_us",
+			"10",
+			"sleep_ms",
+			"sleep",
+			"render",
+			"complete",
+			"rendering",
+			"sleep",
+			"_refs",
+			"link_len",
+			"			static GLfloat link_len 			= 2.0f;\n",
+			"edge_renderer",
+			"glutOk",
+			"thread",
+			"_renderhandle",
+			"_render",
+			"e_itr",
+			"_group",
+			"edge_group",
+			"edge",
+			"Point2f",
+			":\n",
+			"void",
+			"_GraphClientStack",
+			"_Gra",
+			"WT_Thread",
+			"physics",
+			"int flags",
+			"physics",
+			"GLUT",
+			"glutOk",
+			"glut_",
+			"vertices",
+			"vrt",
+			"WTGL_MAX_THREAD_TRUNK",
+			"WTFL_MAX_THREAD",
+			"typedef edge* 	ptr;",
+			"0.1",
+			"_mean",
+			"x_mean",
+			"= 0;",
+			"test_frame",
+			"=",
+			"seek_color",
+			"seek_thresh",
+			"seek_color_dominant",
+			"camera_blob_settings",
+			"seek_color_dominant",
+			"seek_thresh",
+			"seek_color",
+			"i",
+			"test_frame.",
+			"test_frame",
+			"float",
+			"seek_color_dominant",
+			"seek_thresh",
+			"[0]",
+			"seek_color",
+			"[0]",
+			"x_mean",
+			"seek_color[0]",
+			"seek_color",
+			"thresh",
+			"seek_color",
+			"abs",
+			"cd::Vec3b",
+			"double",
+			"cv::Point<size_t>(idx,jdx)",
+			"Point",
+			"20",
+			"v_itr",
+			"update",
+			"Physics::stiffness",
+			"1.0f",
+			"stiffness",
+			"F_FRICTION(",
+			"ext_f",
+			"unit_vec,ext_f",
+			"distance",
+			"glut_view_aspect",
+			"Physics::gravity",
+			"glut",
+			"vel",
+			"glut_"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 7,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/media/brian/Windows/Users/brian/Dropbox/lib_source_code/cpp/WebTools/source/crawler.cpp",
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 156.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/media/brian/Windows/Users/brian/Dropbox/lib_source_code/cpp/WebTools/include/WebTools/crawler.hpp",
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 7.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "main.cpp",
+					"settings":
+					{
+						"buffer_size": 5095,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1203,
+								1203
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 234.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/media/brian/Windows/Users/brian/Dropbox/lib_source_code/cpp/WebTools/include/WebTools/page.hpp",
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 433.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "/media/brian/Windows/Users/brian/Dropbox/lib_source_code/cpp/WebTools/source/page.cpp",
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 312.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "make_WebTools.sh",
+					"settings":
+					{
+						"buffer_size": 568,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								568,
+								568
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/ShellScript/Shell-Unix-Generic.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "/media/brian/Windows/Users/brian/Dropbox/lib_source_code/cpp/WebTools/source/cache.cpp",
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 2301.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "/media/brian/Windows/Users/brian/Dropbox/lib_source_code/cpp/WebTools/include/WebTools/graph.hpp",
+					"settings":
+					{
+						"buffer_size": 4876,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3674,
+								3674
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1853.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 29.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 130.0,
+	"status_bar_visible": true
+}

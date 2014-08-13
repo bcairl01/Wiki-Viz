@@ -20,15 +20,62 @@ int main(int argc, char** argv)
 	//WebTools::Page::set_max_link_count(200UL);
 
 	WebTools::Page::page::map map_out;
-	WebTools::GraphLite::graph graph_test;
-
 	
+	WebTools::GraphLite::graph graph_test;
+	
+	WebTools::GraphLite::set_client(graph_test);
+	
+	WebTools::GraphLite::run_host(argc,argv);
+	
+	WebTools::Crawler::crawler_base crawler_base("http://en.wikipedia.org/wiki/Urine");
+	size_t n_added = 0UL;
+
+	for(;;)
+	{
+		if(crawler_base.step())
+		{
+			for( size_t idx = 0; idx < crawler_base.size(); idx++ )
+			{
+
+				WebTools::Page::page 	tmp_page(crawler_base.get_caches(idx));
+				
+				map_out.emplace(tmp_page.get_address(),tmp_page);
+				
+				WebTools::Page::enumerate(map_out);
+				
+				for( Types::c_hyperlink_citr y_itr = tmp_page.get_hyperlinks().cbegin(); y_itr != tmp_page.get_hyperlinks().cend(); ++y_itr)
+				{
+					Page::page::map::iterator linked_to = map_out.find(*y_itr);
+					
+					if( (linked_to!=map_out.end()) && (tmp_page.get_id()!=linked_to->second.get_id()) )
+					{
+
+						graph_test.new_edge(
+							tmp_page.get_id(), 
+							linked_to->second.get_id()
+						);
+						
+						graph_test.get_last_edge().set_attraction(
+							WebTools::Utils::Hyperlinks::fcompare( 
+								linked_to->second.get_address(), 
+								tmp_page.get_address() 
+							)
+						);
+					}
+				}
+			}
+
+			crawler_base.reset();
+		}
+		else
+			break;
+	}
+
 
 	//graph_test.get_vertex(0).set_position(1,1,1);
 	//graph_test.get_vertex(1).set_position(-1,-1,-1);
 
-	WebTools::GraphLite::Host::set_client(graph_test);
-	WebTools::GraphLite::Host::run_host(argc,argv);
+
 
 
 	//WebTools::Crawler::crawler_base 	crawler("Data",time_t_run,"http://www.wikipedia.org/");
@@ -93,13 +140,13 @@ int main(int argc, char** argv)
 	ubigraph_clear();
 	*/
 
-	
+	/*
 	std::cout << "Tome to run : ";
 	std::cin  >> time_t_run;
 
 
 	//WebTools::Crawler::crawler_base 	crawler("Data",time_t_run,"http://en.wikipedia.org/wiki/Cabbage");
-	/*
+
 	crawler.add_inclusion("en.wikipedia.org/wiki");
 	crawler.add_exclusion(".png");
 	crawler.add_exclusion(".pdf");
@@ -109,11 +156,11 @@ int main(int argc, char** argv)
 	crawler.add_exclusion("/cim");
 	crawler.begin();
 	crawler.end();
-	*/
 
 	//WebTools::Page::build(crawler.get_pages(),map_out);
 	WebTools::Page::build(WebTools::Page::loader("Data",time_t_run).get_pages(),map_out);
 	WebTools::Page::enumerate(map_out);
+	
 	for( Page::page::map::iterator x_itr = map_out.begin(); x_itr != map_out.end(); ++x_itr)
 	{
 		graph_test.new_vertex(x_itr->second.get_id());
@@ -138,5 +185,6 @@ int main(int argc, char** argv)
 			}
 		}
 	}
-	while(1);
+	*/
+	//while(1);
 }

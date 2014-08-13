@@ -1,5 +1,4 @@
 #!/bin/bash
-clear
 export WINSRC=/media/brian/Windows/Users/brian/Dropbox/lib_source_code
 export HOME=~/Projects/Wiki-Viz
 
